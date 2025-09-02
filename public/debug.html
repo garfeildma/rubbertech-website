@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug - RubberTech Color Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        accent: {
+                            50: '#f7fee7',
+                            100: '#ecfccb',
+                            200: '#d9f99d',
+                            300: '#bef264',
+                            400: '#a3e635',
+                            500: '#84cc16',
+                            600: '#65a30d',
+                            700: '#4d7c0f',
+                            800: '#3f6212',
+                            900: '#365314',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="min-h-screen">
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white py-20">
+            <div class="container mx-auto px-4 relative z-10">
+                <h1 class="text-4xl font-bold text-center">Hero Section (Green Theme)</h1>
+                <p class="text-xl text-primary-100 text-center mt-4">This should be visible with light green text</p>
+            </div>
+        </section>
+
+        <!-- Hot Products Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Hot Products Section</h2>
+                <p class="text-xl text-gray-600 text-center">This should be dark text on light gray background</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <div class="h-32 bg-gray-200 rounded mb-4"></div>
+                        <h3 class="font-semibold text-lg text-gray-900 mb-2">Product Card</h3>
+                        <p class="text-primary-600 font-medium mb-2">Size info</p>
+                        <p class="text-gray-600 text-sm">Description text should be visible</p>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <button class="bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700">
+                        View All Products
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Why Choose Us Section</h2>
+                <p class="text-xl text-gray-600 text-center">This should be dark text on white background</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
