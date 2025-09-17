@@ -1,18 +1,4 @@
-import { Product } from '@/types';
-
-// 产品分类
-export const productCategories = [
-  "PU Wheel",
-  "PVC Wheel",
-  "Pneumatic Rubber Wheel",
-  "Semi-Pneumatic Rubber Wheel",
-  "Solid Wheel",
-  "Trolley",
-  "Wheelbarrow"
-];
-
-// 所有产品数据
-export const products: Product[] = [
+[
   {
     "id": "pr0601",
     "name": "PR0601",
@@ -2710,9 +2696,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt0101/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/1-HT0101-300x300.jpg",
     "specifications": {
-      "itemNo": "RT0101",
-      "loadCapacity": "120 kgs",
-      "wheelSize": "6.5'x 1.75\"Solid"
+      "itemNo": "RT0101"
     }
   },
   {
@@ -2723,9 +2707,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt0102/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/2-HT0102-300x300.jpg",
     "specifications": {
-      "itemNo": "RT0102",
-      "loadCapacity": "120 kgs",
-      "wheelSize": "6.5'x 1.75\"Solid"
+      "itemNo": "RT0102"
     }
   },
   {
@@ -2736,9 +2718,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2011/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/3-HT2011-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2011",
-      "loadCapacity": "90 kgs",
-      "wheelSize": "8\" x 2\"Solid"
+      "itemNo": "RT2011"
     }
   },
   {
@@ -2749,9 +2729,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2012/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/4-HT2012-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2012",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10' x 3.50-4 Pneumatic"
+      "itemNo": "RT2012"
     }
   },
   {
@@ -2762,9 +2740,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2014/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/5-HT2014-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2014",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2014"
     }
   },
   {
@@ -2775,9 +2751,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2017/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/6-HT2017-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2017",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2017"
     }
   },
   {
@@ -2788,9 +2762,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2020/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/1-HT2020-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2020",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2020"
     }
   },
   {
@@ -2801,9 +2773,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2021/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/2-HT2021-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2021",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2021"
     }
   },
   {
@@ -2814,9 +2784,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2022/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/3-HT2022-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2022",
-      "loadCapacity": "150 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2022"
     }
   },
   {
@@ -2827,9 +2795,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2027/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/4-HT2027-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2027",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2027"
     }
   },
   {
@@ -2840,9 +2806,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2029/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/5-HT2029-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2029",
-      "loadCapacity": "180 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2029"
     }
   },
   {
@@ -2853,9 +2817,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2045/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/6-HT2045-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2045",
-      "loadCapacity": "250 kgs",
-      "wheelSize": "13\" x 4 00-6 Pneumatic"
+      "itemNo": "RT2045"
     }
   },
   {
@@ -2866,9 +2828,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2050/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/1-HT2050-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2050",
-      "loadCapacity": "120 kgs",
-      "wheelSize": "10\"x 1.75\"Solid"
+      "itemNo": "RT2050"
     }
   },
   {
@@ -2879,9 +2839,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2051/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/2-HT2051-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2051",
-      "loadCapacity": "260 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2051"
     }
   },
   {
@@ -2892,9 +2850,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2057/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/3-HT2057-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2057",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2057"
     }
   },
   {
@@ -2905,9 +2861,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2060/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/4-HT2060-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2060",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\"x3.00-4 Pneumatic"
+      "itemNo": "RT2060"
     }
   },
   {
@@ -2918,9 +2872,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2077/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/5-HT2077-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2077",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2077"
     }
   },
   {
@@ -2931,9 +2883,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2093/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/8-HT2093-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2093",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2093"
     }
   },
   {
@@ -2944,9 +2894,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2096/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/1-HT2096-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2096",
-      "loadCapacity": "120 kgs",
-      "wheelSize": "10\" x 3.50-4 Pneumatic"
+      "itemNo": "RT2096"
     }
   },
   {
@@ -2957,9 +2905,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2101/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/2-HT2101-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2101",
-      "loadCapacity": "90 kgs",
-      "wheelSize": "6\"x 1.5'Solid"
+      "itemNo": "RT2101"
     }
   },
   {
@@ -2970,9 +2916,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2106/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/3-HT2106-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2106",
-      "loadCapacity": "180 kgs",
-      "wheelSize": "10\"x3.00-4 Pneumatic"
+      "itemNo": "RT2106"
     }
   },
   {
@@ -2983,9 +2927,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2133/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/4-HT2133-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2133",
-      "loadCapacity": "200 kgs",
-      "wheelSize": "10\"x3.00-4 Pneumatic"
+      "itemNo": "RT2133"
     }
   },
   {
@@ -2996,9 +2938,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2141/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/5-HT2141-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2141",
-      "loadCapacity": "150 kgs",
-      "wheelSize": "10\"x3.00-4 Pneumatic"
+      "itemNo": "RT2141"
     }
   },
   {
@@ -3009,9 +2949,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/rt2150/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/6-HT2150-300x300.jpg",
     "specifications": {
-      "itemNo": "RT2150",
-      "loadCapacity": "50 kgs",
-      "wheelSize": "7\" x 1.5\" Solid"
+      "itemNo": "RT2150"
     }
   },
   {
@@ -3074,12 +3012,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb2204/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/1-WB2204-300x300.jpg",
     "specifications": {
-      "itemNo": "WB2204",
-      "loadCapacity": "100 kgs",
-      "waterCapacity": "47 L",
-      "sandCapacity": "4 cbf",
-      "wheelSize": "13\" x 3\"(pneumatic)",
-      "dimensions": "1245*615*547*775*498*280 mm (L*H*C*A*B*h)"
+      "itemNo": "WB2204"
     }
   },
   {
@@ -3090,12 +3023,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb2206/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/2-WB2206-300x300.jpg",
     "specifications": {
-      "itemNo": "WB2206",
-      "loadCapacity": "120 kgs",
-      "waterCapacity": "58 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "3.25-8",
-      "dimensions": "1355*650*546*775*495*235 mm (L*H*C*A*B*h)"
+      "itemNo": "WB2206"
     }
   },
   {
@@ -3106,12 +3034,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb2500/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/3-WB2500-300x300.jpg",
     "specifications": {
-      "itemNo": "WB2500",
-      "loadCapacity": "120 kgs",
-      "waterCapacity": "58 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "13\"x 3\"(solid)",
-      "dimensions": "1310*550*490*775*500*230 mm (L*H*C*A*B*h)"
+      "itemNo": "WB2500"
     }
   },
   {
@@ -3122,12 +3045,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb3800/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/4-WB3800-300x300.jpg",
     "specifications": {
-      "itemNo": "WB3800",
-      "loadCapacity": "120 kgs",
-      "waterCapacity": "60 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "13\"x 3\"",
-      "dimensions": "1380*540*450*830*613*255 mm (L*H*C*A*B*h)"
+      "itemNo": "WB3800"
     }
   },
   {
@@ -3138,12 +3056,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb4024c/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/7-WB4024C-300x300.jpg",
     "specifications": {
-      "itemNo": "WB4024C",
-      "loadCapacity": "100 kgs",
-      "waterCapacity": "62.5 L",
-      "sandCapacity": "3.5 cbf",
-      "wheelSize": "400-12 PU",
-      "dimensions": "1305*620*585*815*610*215 mm (L*H*C*A*B*h)"
+      "itemNo": "WB4024C"
     }
   },
   {
@@ -3154,12 +3067,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb4211/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/8-WB4211-300x300.jpg",
     "specifications": {
-      "itemNo": "WB4211",
-      "loadCapacity": "130 kgs",
-      "waterCapacity": "75 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "14\"x 3.50-8",
-      "dimensions": "1490*570*530*900*640*240 mm (L*H*C*A*B*h)"
+      "itemNo": "WB4211"
     }
   },
   {
@@ -3170,12 +3078,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb4402/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/9-WB4402-300x300.jpg",
     "specifications": {
-      "itemNo": "WB4402",
-      "loadCapacity": "300 kgs",
-      "waterCapacity": "110 L",
-      "sandCapacity": "7 cbf",
-      "wheelSize": "4.80/4.00-8",
-      "dimensions": "1540*590*550*950*640*310 mm (L*H*C*A*B*h)"
+      "itemNo": "WB4402"
     }
   },
   {
@@ -3186,12 +3089,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb4600/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/10-WB4600-300x300.jpg",
     "specifications": {
-      "itemNo": "WB4600",
-      "loadCapacity": "100 kgs",
-      "waterCapacity": "65 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "16\"x 4.00-8",
-      "dimensions": "1380*620*570*890*600*250 mm (L*H*C*A*B*h)"
+      "itemNo": "WB4600"
     }
   },
   {
@@ -3202,12 +3100,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb5008/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/12-WB5008-300x300.jpg",
     "specifications": {
-      "itemNo": "WB5008",
-      "loadCapacity": "150 kgs",
-      "waterCapacity": "90 L",
-      "sandCapacity": "6 cbf",
-      "wheelSize": "4.80/4.00-8",
-      "dimensions": "1420*596*545*880*595*320 mm (L*H*C*A*B*h)"
+      "itemNo": "WB5008"
     }
   },
   {
@@ -3218,12 +3111,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb5009/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/2-WB5009-300x300.jpg",
     "specifications": {
-      "itemNo": "WB5009",
-      "loadCapacity": "150 kgs",
-      "waterCapacity": "80 L",
-      "sandCapacity": "6 cbf",
-      "wheelSize": "4.00-8",
-      "dimensions": "1450*620*650*880*610*280 mm (L*H*C*A*B*h)"
+      "itemNo": "WB5009"
     }
   },
   {
@@ -3234,12 +3122,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb5204/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/3-WB5204-300x300.jpg",
     "specifications": {
-      "itemNo": "WB5204",
-      "loadCapacity": "80 kgs",
-      "waterCapacity": "65 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "4.00-6",
-      "dimensions": "1270*610*570*800*610*200 mm (L*H*C*A*B*h)"
+      "itemNo": "WB5204"
     }
   },
   {
@@ -3250,12 +3133,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb5206/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/4-WB5206-300x300.jpg",
     "specifications": {
-      "itemNo": "WB5206",
-      "loadCapacity": "100 kgs",
-      "waterCapacity": "65 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "14\"x 4.00-6",
-      "dimensions": "1255*655*540*805*605*220 mm (L*H*C*A*B*h)"
+      "itemNo": "WB5206"
     }
   },
   {
@@ -3266,12 +3144,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb5208/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/5-WB5208-300x300.jpg",
     "specifications": {
-      "itemNo": "WB5208",
-      "loadCapacity": "120 kgs",
-      "waterCapacity": "65 L",
-      "sandCapacity": "4 cbf",
-      "wheelSize": "13\"x 3.00-8",
-      "dimensions": "1275*600*550*800*590*200 mm (L*H*C*A*B*h)"
+      "itemNo": "WB5208"
     }
   },
   {
@@ -3282,12 +3155,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb5600/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/6-WB5600-300x300.jpg",
     "specifications": {
-      "itemNo": "WB5600",
-      "loadCapacity": "100 kgs",
-      "waterCapacity": "72 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "4.00-8",
-      "dimensions": "1470*590*635*890*600*293 mm (L*H*C*A*B*h)"
+      "itemNo": "WB5600"
     }
   },
   {
@@ -3298,12 +3166,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb6009/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/7-WB6009-300x300.jpg",
     "specifications": {
-      "itemNo": "WB6009",
-      "loadCapacity": "150 kgs",
-      "waterCapacity": "100 L",
-      "sandCapacity": "6 cbf",
-      "wheelSize": "16\"x 4.00-8",
-      "dimensions": "1580*475*535*970*650*305 mm (L*H*C*A*B*h)"
+      "itemNo": "WB6009"
     }
   },
   {
@@ -3314,12 +3177,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb6015/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/8-WB6015-300x300.jpg",
     "specifications": {
-      "itemNo": "WB6015",
-      "loadCapacity": "180 kgs",
-      "waterCapacity": "95 L",
-      "sandCapacity": "6 cbf",
-      "wheelSize": "16\"x 4.00-8",
-      "dimensions": "1525*630*540*950*640*280 mm (L*H*C*A*B*h)"
+      "itemNo": "WB6015"
     }
   },
   {
@@ -3330,12 +3188,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb6123/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/11-WB6123-300x300.jpg",
     "specifications": {
-      "itemNo": "WB6123",
-      "loadCapacity": "120 kgs",
-      "waterCapacity": "85 L",
-      "sandCapacity": "5.5 cbf",
-      "wheelSize": "16\"x 4.00-8",
-      "dimensions": "1440*520*520*970*650*305 mm (L*H*C*A*B*h)"
+      "itemNo": "WB6123"
     }
   },
   {
@@ -3346,15 +3199,7 @@ export const products: Product[] = [
     "url": "https://rubbertechchina.com/product/wb6200/",
     "thumbnail": "https://rubbertechchina.com/wp-content/uploads/2021/02/12-WB6200-300x300.jpg",
     "specifications": {
-      "itemNo": "WB6200",
-      "loadCapacity": "120 kgs",
-      "waterCapacity": "65 L",
-      "sandCapacity": "5 cbf",
-      "wheelSize": "13\"x 3\"",
-      "dimensions": "1400*460*560*830*680*205 mm (L*H*C*A*B*h)"
+      "itemNo": "WB6200"
     }
   }
-];
-
-// 热销产品
-export const hotSellingProducts = products.slice(0, 8);
+]

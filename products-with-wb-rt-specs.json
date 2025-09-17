@@ -1,18 +1,4 @@
-import { Product } from '@/types';
-
-// 产品分类
-export const productCategories = [
-  "PU Wheel",
-  "PVC Wheel",
-  "Pneumatic Rubber Wheel",
-  "Semi-Pneumatic Rubber Wheel",
-  "Solid Wheel",
-  "Trolley",
-  "Wheelbarrow"
-];
-
-// 所有产品数据
-export const products: Product[] = [
+[
   {
     "id": "pr0601",
     "name": "PR0601",
@@ -3354,7 +3340,4 @@ export const products: Product[] = [
       "dimensions": "1400*460*560*830*680*205 mm (L*H*C*A*B*h)"
     }
   }
-];
-
-// 热销产品
-export const hotSellingProducts = products.slice(0, 8);
+]
